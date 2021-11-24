@@ -1,0 +1,450 @@
+div#root {
+    padding-top:0px !important;
+}
+.landing {
+    overflow-x: hidden;
+}
+header.l-header {
+    background: #03639d;
+    color: #fff;
+}
+header.l-header .navbar-light .navbar-nav .nav-link {
+    color: #fff;
+    font-size: 14px;
+    font-weight:400;
+    border-radius: 4px;
+    padding: 4px 10px;
+    text-transform: capitalize;
+    transition: all 0.3s ease-in-out;
+}
+.nav-link.pink {
+    background: #ff4a67 !important;
+    color: #fff !important;
+}
+header.l-header .navbar-light .navbar-nav .nav-link:hover {
+    color: #ff4a67;
+}
+.top-banner .carousel-item figure {
+    display: block;
+    width: 60%;
+    margin-left: auto;
+    margin-bottom: 0;
+}
+.top-banner .carousel-item figure img{
+    object-fit: cover;
+    width: 100%;
+}
+.top-banner .carousel-item {
+    max-height: 100vh;
+    overflow: hidden;
+    padding-bottom: 20px;
+}
+.top-banner .carousel-item::before {
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    content: '';
+    height: 100%;
+    background: url(../../assest/images/blue-curve.png) no-repeat left top;
+    background-size: 50%;
+}
+.carousel-indicators,
+.top-banner .carousel-control-prev,
+.top-banner .carousel-control-next {
+    display: none !important;
+}
+.top-banner::after {
+    content: '';
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    right: 0;
+    height: 120px;
+    background: url(../../assest/images/curve-white.png) no-repeat bottom right;
+    background-size: 105% 83%;
+}
+.top-banner .carousel-caption {
+    position: absolute;
+    right: auto;
+    top: 15%;
+    left: 9%;  
+    text-align: left;
+    max-width: 500px;
+    margin: 25px 0;  
+}
+.top-banner .carousel-caption h1 {
+    font-size:36px;
+}
+.btn.btn-danger {
+    background: #ff4a67 !important;
+    border-color: #ff4a67;
+    border-radius: 35px;
+    width: 220px;
+    margin-top: 30px;
+    font-size: 26px;
+}
+.Howitworks {
+    padding: 60px 0;    
+}
+/* .Howitworks::after {
+    content: '';
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    width: 45%;
+    top: 0px;
+    height: auto;
+    background: url(/static/media/pattern-bg.3cdf25ed.png) no-repeat top left;
+    background-size: cover;
+} */
+.works h2 {
+    font-weight: 600;
+    color: #000;
+    font-size: 36px;
+    position: relative;
+    top: -25px;
+}
+.works .media h5 {
+    font-size: 22px;
+    font-weight: 500;
+    color: #333;
+}
+.works .media h5 span {
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+}
+.features {
+    padding: 60px 0;
+    background: #eff1f2;
+    text-align: center;
+}
+.features h2 {
+    font-size: 36px;
+    color: #000;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+.white-box {
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+    border-radius: 4px;
+    height: 100%;
+    margin: 10px 0;
+}
+.white-box p {
+    height: 63px;
+    overflow: hidden;
+    color: #000;
+}
+.white-box figure img {
+    width: 65px;
+    display: block;
+    margin: 0 auto;
+}
+.btn.btn-outline-info {
+    border-radius: 35px;
+    border-color: #03639d !important;
+    color: #03639d;
+    padding: 6px 23px;
+    font-size: 14px;
+}
+.btn.btn-outline-info:hover,
+.btn.btn-outline-info:focus {
+    color: #fff !important;
+    background: #03639d !important;
+}
+.testimonial {
+    padding: 60px 0;
+    background: url(../../assest/images/testimonial-bg.jpg) no-repeat center;
+    background-size: cover;
+    text-align: center;
+    position: relative;
+}
+.testimonial .container {
+    z-index: 9;
+}
+.testimonial h2 {
+    font-size: 36px;
+    color: #fff;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+.testimonial::after {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    content: '';
+    background:rgba(3, 103, 163, 0.92); 
+}
+.test-bg {
+    width: 930px;
+    height: 495px;
+    margin: 20px auto;
+    background: url(../../assest/images/laptop-bg.png) no-repeat center;
+    background-size: cover;
+    padding: 32px 139px 56px 141px;
+    max-width: 100%;
+}
+.inside-slide.bg-white {
+    width: 100%;
+    height: 100%;
+    padding: 25px;
+}
+.inside-slide figure {
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    border: 1px solid #ff4a67;
+    padding: 10px;
+    margin: 15px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.inside-slide figure img {
+    width: 90px;
+    height: 90px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+.inside-slide p {
+    font-size: 18px;
+    font-weight: 500;
+    color: #222;
+    line-height: 30px;
+}
+.inside-slide span.deg {
+    display: block;
+    text-align: center;
+    margin: 25px auto;
+    max-width: 320px;
+    color: #484848;    
+}
+.testimonial .carousel-control-prev-icon {
+    background: url(../../assest/images/prev-arrow.png);
+    background-size: contain;
+}
+.testimonial .carousel-control-next-icon {
+    background: url(../../assest/images/next-arrow.png);
+    background-size: contain;
+}
+.testimonial .carousel-control-next, 
+.testimonial .carousel-control-prev {
+    width: 50px;
+    opacity: 1;
+}
+.testimonial .carousel-control-prev {
+    left: -45%;
+}
+.testimonial .carousel-control-next {
+    right: -45%;
+}
+.thumb-box {
+    overflow: hidden;
+    border-radius: 5px;
+    position: relative;
+}
+.thumb-box img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+.thumb-box .figure-caption {
+    position: absolute;
+    bottom: 60px;
+    left: 0;
+    background: #eff1f2;
+    padding: 8px 25px 8px 15px;
+    min-width: 60%;
+    text-align: left;
+}
+.thumb-box .figure-caption h4 {
+    font-size: 17px;
+    margin: 0;
+    color: #383838;
+    font-weight: 600;
+}
+.thumb-box .figure-caption span {
+    font-size: 13px;
+    margin: 0;
+    color: #383838;
+    display: block;
+    font-weight:400;
+}
+.main-footer {
+    padding: 60px 0 0;
+    background: url(../../assest/images/footerbg.jpg) no-repeat center;
+    background-size: cover;    
+    position: relative;
+}
+.main-footer::after {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    content: '';
+    background:rgba(3, 103, 163, 0.92); 
+}
+.main-footer .container {
+    z-index: 9;
+}
+.copy-footer {
+    border-top: 1px solid #02275a;
+    z-index: 9;
+    position: relative;
+}
+.main-footer h4 {
+    color: #fff;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+.links ul li a {
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #fff;
+    padding: 6px 10px;
+    display: block;
+    font-weight:400;
+    transition: all 0.3s ease-in-out;
+}
+.links {
+    margin-bottom: 30px;
+}
+.links ul li a:hover {
+    text-decoration: none;
+    padding-left: 15px;
+}
+.s-icon {
+    margin-right: 15px;
+}
+.navbar-light .navbar-toggler {
+    background-color: #fff;
+}
+/* responsive css */
+
+@media (max-width:1199px) {
+    header.l-header .navbar-light .navbar-nav .nav-link {
+        font-size: 13px;
+        padding: 4px 6px;
+    }
+    .top-banner .carousel-item::before {
+        background-size: 60%;
+        top: -3px;
+    }
+    .testimonial .carousel-control-next {
+        right: -20%;
+    }
+    .testimonial .carousel-control-prev {
+        left: -20%;
+    }
+}
+@media (max-width:991px) {
+    header.l-header .navbar-light .navbar-nav .nav-link {
+        font-size: 16px;
+        padding: 10px 6px;
+    }
+    .top-banner .carousel-caption {
+        padding-top: 0;
+        left: 6%;
+        margin: 0;
+    }
+    .top-banner .carousel-caption h1 {
+        font-size: 25px;
+        max-width: 368px;
+    }
+    .top-banner .carousel-item::before {
+        background-size: 60%;
+        top: -3px;
+    }
+    .Howitworks figure img {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    .testimonial .carousel-control-next {
+        right: -20%;
+    }
+    .testimonial .carousel-control-prev {
+        left: -20%;
+    }
+    .inside-slide.bg-white {
+        padding: 15px;
+    }
+    .top-banner::after {        
+        left: -67px;
+        right: -8px;
+        height: 66px;       
+    }
+    #responsive-navbar-nav {
+        border-top: 1px solid #eee;
+        margin-top: 20px;
+    }
+    .features .col-md-6 {
+        margin-bottom: 20px;
+    }
+    .test-bg {
+        width: 930px;
+        height: 472px;      
+        padding: 32px;        
+        padding-bottom: 55px;
+    }
+    figure.thumb-box {
+        display: block;
+    }
+}
+@media (max-width:767px) {
+    .top-banner .carousel-caption h1 {
+        font-size: 18px;
+        max-width: 368px;
+    }
+    .btn.btn-danger { 
+        width: 120px;
+        margin-top: 20px;
+        font-size: 14px;
+    }
+    .features h2 {
+        font-size: 26px;
+    }
+    .works .media h5 {
+        font-size: 18px;
+    }
+    .test-bg {
+        background: none ;
+        height: auto;
+        margin: 0 auto;
+    }
+    .inside-slide p {
+        font-size: 15px;
+        line-height: 22px;
+    }
+    .testimonial .carousel-control-next {
+        right: -25%;
+    }
+    .testimonial .carousel-control-prev {
+        left: -25%;
+    }
+}
+@media (max-width:576px) {
+    .top-banner .carousel-item::before {
+        background-size: 114%;
+        top: -3px;
+        opacity: 0.9;
+    }
+    .top-banner .carousel-item {
+        padding-bottom: 25px;
+    }
+    .top-banner .carousel-item figure {
+        width: 100%;
+    }
+    .media img {
+        width: 42px !important;
+        margin-right: 10px !important;
+    }
+}

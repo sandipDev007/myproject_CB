@@ -1,0 +1,70 @@
+{
+  "name": "connectbud",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.19.0",
+    "base-64": "^0.1.0",
+    "bootstrap": "^4.3.1",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.4.1",
+    "rc-banner-anim": "^2.4.3",
+    "react": "^16.11.0",
+    "react-async-script-loader": "^0.3.0",
+    "react-autocomplete": "^1.8.1",
+    "react-bootstrap": "^1.0.0-beta.11",
+    "react-browser-notifications": "^1.0.14",
+    "react-dom": "^16.9.0",
+    "react-drop-zone": "^3.0.7",
+    "react-dropzone": "^10.2.1",
+    "react-facebook-login": "^4.1.1",
+    "react-google-login": "^5.0.7",
+    "react-image-crop": "^8.4.2",
+    "react-infinite-scroll-component": "^5.0.4",
+    "react-ionicons": "^3.0.1",
+    "react-live-clock": "^3.1.0",
+    "react-loading-overlay": "^1.0.1",
+    "react-loading-skeleton": "^1.3.0",
+    "react-paypal-express-checkout": "^1.0.5",
+    "react-recaptcha": "^2.3.10",
+    "react-router-dom": "^5.0.1",
+    "react-scripts": "3.1.1",
+    "react-scrollbar": "^0.5.6",
+    "react-select": "^3.0.8",
+    "react-select-country-list": "^2.0.1",
+    "react-skeleton-loader": "^1.0.4",
+    "react-slick": "^0.25.2",
+    "react-spinner-material": "^1.1.3",
+    "react-spinners": "^0.6.1",
+    "react-star-rating-component": "^1.4.1",
+    "react-switch": "^5.0.1",
+    "react-toastify": "^5.3.2",
+    "react-tooltip": "^3.11.1",
+    "read-more-react": "^1.0.9",
+    "slick-carousel": "^1.8.1",
+    "socket.io-client": "^2.3.0",
+    "sweetalert": "^2.1.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "autorun": "react-scripts build && serve -s build -p 3000"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

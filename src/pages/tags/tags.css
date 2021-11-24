@@ -1,0 +1,114 @@
+.top-head h2 {
+    font-size: 30px;
+    color: #03639d;
+    font-weight: 500;
+    margin: 20px 0 10px;
+}
+.top-head p {
+    font-size: 18px;
+    color: #878787;
+}
+.tabs-connect a.nav-link {
+    background: #f6f8fa;
+    padding: 8px 25px;
+    border: 1px solid #d8dfe6;
+    margin-left: -1px;
+    color: #878787;
+}
+.tabs-connect a.nav-link.active {
+    color: #03639d;
+    background: transparent;
+    border-bottom: 0;
+}
+.flex-row.nav .nav-item:first-child a {
+    border-top-left-radius: 5px;
+}
+.flex-row.nav .nav-item:last-child a {
+    border-top-right-radius: 5px;
+}
+.list-text {
+    color: #878787;
+}
+.search-right {
+    overflow: hidden;
+}
+.search-right .form-control{
+    box-shadow: none !important;    
+}
+.chkbox {
+    padding: 15px 10px;
+    display: block;
+    border-radius: 4px;
+    border: 1px solid #dfdedc;
+    position: relative;
+    overflow: hidden;
+}
+.chkbox input {
+    margin-top: -80px;    
+}
+.chkbox::before {
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    content: '';
+    left: 9px;
+    top: 16px;
+    border: 1px solid #d8dfe6;
+    border-radius: 3px;
+}
+.chkbox input:checked::after{
+    position: absolute;
+    content: '';
+    width: 10px;
+    height: 10px;    
+    left: 11px;
+    top: 18px;    
+    opacity: 1;
+    background: url(../../assest/images/check.png) no-repeat center;
+    background-size: contain;
+
+}
+ul.pan-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+.pan-list li {
+    width: 20%;
+    padding: 8px 10px;
+}
+.pan-list li h5 {
+    font-size: 14px;
+    color: #03639d;
+    font-weight: 500;
+    margin: 0;
+}
+.pan-list li p {
+    font-size: 12px;
+    color: #878787;
+    margin: 0;    
+}
+.btn-outline-primary {
+    border-radius: 25px !important;
+    padding: 8px 53px !important;
+    color: #03639d !important;
+    border: 1px solid #dfdedc !important;
+}
+.btn-outline-primary:hover {
+    background: #03639d !important;
+    color: #fff !important;
+}
+.tags-main {
+    padding-top: 64px;
+}
+.box label {box-shadow: 0px 0px 8px #c5c5c5;border:1px solid #22639d;}
+
+
+@media only screen and (max-width:1200px){
+    .pan-list li{width: 25%;}
+}
+@media only screen and (max-width:1024px){
+    .pan-list li{width: 33%;}
+}
+@media only screen and (max-width:767px){
+    .pan-list li{width: 100%;}
+}
